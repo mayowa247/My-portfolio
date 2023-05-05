@@ -1,0 +1,100 @@
+@media screen and (max-width: 1240px) {
+    .offer-box {
+      flex-wrap: wrap;
+      width: 100%;
+    }
+  
+    .offer-box .offer-card {
+      margin-bottom: 100px;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .menu {
+      width: 400px;
+    }
+  
+    /* the hero section */
+    .hero-left h1 {
+      font-size: 60px;
+    }
+  
+    .hero-circle {
+      height: 350px;
+      width: 350px;
+    }
+  
+    /* contact section */
+    .contact-left {
+      width: 60%;
+      padding: 0 10px;
+    }
+    .contact-left .contact-box {
+      width: 100%;
+    }
+  
+    .contact-right {
+      width: 40%;
+      justify-content: flex-end;
+    }
+  
+    .contact-right .map-box {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .header {
+      justify-content: space-between;
+    }
+  
+    .menu {
+      display: none;
+    }
+  
+    /* the hero section */
+    .hero-left {
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .hero-right {
+      display: none;
+    }
+  
+    /* about section */
+    .about {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about-left {
+      width: 100%;
+      height: 100%;
+      padding: 50px 10px;
+    }
+  
+    .about-right {
+      width: 100%;
+      height: 100%;
+      padding: 20px 10px 100px 10px;
+      justify-content: center;
+    }
+  
+    /* contact section */
+    .contact-left {
+      width: 100%;
+    }
+  
+    .contact-right {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 350px) {
+    footer .footer-icons {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+  

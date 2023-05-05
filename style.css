@@ -22,6 +22,7 @@ body {
   width: 100%;
   background: #1d1730;
   z-index: 2;
+  padding: 10px 15px;
 }
 
 .brand-icon {
@@ -55,7 +56,7 @@ body {
   cursor: pointer;
   color: #fff;
   width: 130px;
-  height: 55px;
+  height: 50px;
   font-weight: 500;
   font-size: 16px;
   transition: all 0.5s linear;
@@ -142,7 +143,7 @@ body {
   width: 450px;
   border-radius: 50%;
   background: #f95353;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .hero-image {
@@ -237,7 +238,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  background:#f95353;
+  background: #f95353;
   border: 1px solid;
 }
 
@@ -291,6 +292,41 @@ body {
 .right-content button:hover {
   background: white;
   color: #f95353;
+}
+
+/* =================================== */
+/* GALLERY SECTION */
+.gallery {
+  padding: 100px 10px;
+}
+
+.gallery h1 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.gallery-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.gallery-box .gallery-card {
+  height: 300px;
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+.gallery-box .gallery-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* =================================== */
